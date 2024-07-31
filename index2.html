@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caterpillar Inspection Report</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="images/logo.png" alt="Caterpillar Logo" class="logo">
+            <h1>Inspection Report</h1>
+        </div>
+    </header>
+    <main>
+        <div id="report-container" class="grid-container">
+            <!-- Dynamic content will be inserted here -->
+        </div>
+        <div id="component-container" class="grid-container" style="display:none;">
+            <button id="back-button">Back to Reports</button>
+            <!-- Component cards will be inserted here -->
+        </div>
+    </main>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modal-content"></div>
+        </div>
+    </div>
+
+    <!-- Firebase JavaScript SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.5.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.5.0/firebase-storage.js"></script>
+    <script src="firebase-config.js"></script>
+    <script src="script2.js"></script>
+</body>
+</html>

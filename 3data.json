@@ -1,0 +1,320 @@
+{
+    "reports": [
+        {
+            "vehicleDetails": {
+                "title": "Elamurugan",
+                "truckSerialNumber": "7301234",
+                "truckModel": "730",
+                "inspectionId": 1,
+                "inspectorName": "John Doe",
+                "inspectionEmployeeId": "EMP001",
+                "inspectionDateTime": "2024-07-05T10:30:00",
+                "locationOfInspection": "Main Garage",
+                "geoCoordinates": {
+                    "latitude": 37.7749,
+                    "longitude": -122.4194
+                },
+                "serviceMeterHours": 1200,
+                "inspectorSignature": "images/signature1.png",
+                "catCustomerId": "CAT101"
+            },
+            "components": [
+                {
+                    "name": "Tires",
+                    "attributes": {
+                        "Tire Pressure for Left Front": "32 psi",
+                        "Tire Pressure for Right Front": "31 psi",
+                        "Tire Condition for Left Front": "Good",
+                        "Tire Condition for Right Front": "Ok",
+                        "Tire Pressure for Left Rear": "30 psi",
+                        "Tire Condition for Left Rear": "Good",
+                        "Tire Pressure for Right Rear": "29 psi",
+                        "Tire Condition for Right Rear": "Needs Replacement",
+                        "Summary": "The tires are in generally good condition, with the exception of the right rear tire which needs replacement. Tire pressures are within acceptable ranges, although the right front and right rear tires are slightly lower."
+                    },
+                    "logo": "images/tyre_logo.png",
+                    "images": [
+                        {
+                            "imageName": "tireLeftFront.png",
+                            "imageDescription": "Image of Left Front Tire"
+                        },
+                        {
+                            "imageName": "tireRightFront.png",
+                            "imageDescription": "Image of Right Front Tire"
+                        },
+                        {
+                            "imageName": "tireLeftRear.png",
+                            "imageDescription": "Image of Left Rear Tire"
+                        },
+                        {
+                            "imageName": "tireRightRear.png",
+                            "imageDescription": "Image of Right Rear Tire"
+                        }
+                    ]
+                },
+                {
+                    "name": "Battery",
+                    "attributes": {
+                        "Battery Make": "CAT ABC",
+                        "Battery replacement date": "2023-05-15",
+                        "Battery Voltage": "12V",
+                        "Battery Water level": "Good",
+                        "Condition of Battery": "N",
+                        "Any Leak/Rust in battery": "N",
+                        "Summary": "The battery is in good condition with no leaks or rust. The water level and voltage are within acceptable ranges."
+                    },
+                    "logo": "images/battery_logo.png",
+                    "images": [
+                        {
+                            "imageName": "batteryImage.png",
+                            "imageDescription": "Image of Battery"
+                        }
+                    ]
+                },
+                {
+                    "name": "Exterior",
+                    "attributes": {
+                        "Rust, Dent or Damage to Exterior": "Y",
+                        "Oil leak in Suspension": "N",
+                        "Summary": "There are some rust and dents on the exterior, but no oil leaks in the suspension."
+                    },
+                    "logo": "images/exterior_logo.png",
+                    "images": [
+                        {
+                            "imageName": "exteriorDamage.png",
+                            "imageDescription": "Image of Exterior Damage"
+                        },
+                        {
+                            "imageName": "suspensionLeak.png",
+                            "imageDescription": "Image of Suspension Leak"
+                        }
+                    ]
+                },
+                {
+                    "name": "Brakes",
+                    "attributes": {
+                        "Brake Fluid level": "Good",
+                        "Brake Condition for Front": "Good",
+                        "Brake Condition for Rear": "Ok",
+                        "Emergency Brake": "Good",
+                        "Summary": "The brake fluid level is good, and the front brakes are in good condition. The rear brakes are okay, but may require attention soon."
+                    },
+                    "logo": "images/brake_logo.png",
+                    "images": [
+                        {
+                            "imageName": "brakeFluidLevel.png",
+                            "imageDescription": "Image of Brake Fluid Level"
+                        },
+                        {
+                            "imageName": "brakeCondition.png",
+                            "imageDescription": "Image of Brake Condition"
+                        }
+                    ]
+                },
+                {
+                    "name": "Engine",
+                    "attributes": {
+                        "Rust, Dents or Damage in Engine": "N",
+                        "Engine Oil Condition": "Good",
+                        "Engine Oil Color": "Clean",
+                        "Brake Fluid Condition": "Good",
+                        "Brake Fluid Color": "Clean",
+                        "Any oil leak in Engine": "N",
+                        "Summary": "The engine is in good condition with no rust, dents, or leaks. The oil and brake fluid are clean and in good condition."
+                    },
+                    "logo": "images/engine_logo.png",
+                    "images": [
+                        {
+                            "imageName": "engineDamage.png",
+                            "imageDescription": "Image of Engine Damage"
+                        },
+                        {
+                            "imageName": "oilLeak.png",
+                            "imageDescription": "Image of Oil Leak"
+                        },
+                        {
+                            "imageName": "engineImage.png",
+                            "imageDescription": "Image of Engine"
+                        }
+                    ]
+                },
+                {
+                    "name": "Voice of Customer",
+                    "attributes": {
+                        "Any feedback from Customer": "The customer reported no major issues but mentioned that the right rear tire needs replacement soon.",
+                        "Images related to the issues discussed": []
+                    },
+                    "logo": "images/customer_logo.png",
+                    "images": [
+                        {
+                            "imageName": "customerFeedbackImage1.png",
+                            "imageDescription": "Image related to Customer Feedback"
+                        },
+                        {
+                            "imageName": "customerFeedbackImage2.png",
+                            "imageDescription": "Another image related to Customer Feedback"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "vehicleDetails": {
+                "title": "Pranavv",
+                "truckSerialNumber": "730E173245",
+                "truckModel": "797",
+                "inspectionId": 2,
+                "inspectorName": "Jane Smith",
+                "inspectionEmployeeId": "EMP002",
+                "inspectionDateTime": "2024-07-05T13:45:00",
+                "locationOfInspection": "Field Site A",
+                "geoCoordinates": {
+                    "latitude": 34.0522,
+                    "longitude": -118.2437
+                },
+                "serviceMeterHours": 1500,
+                "inspectorSignature": "images/signature2.png",
+                "catCustomerId": "CAT102"
+            },
+            "components": [
+                {
+                    "name": "Tires",
+                    "attributes": {
+                        "Tire Pressure for Left Front": "34 psi",
+                        "Tire Pressure for Right Front": "33 psi",
+                        "Tire Condition for Left Front": "Good",
+                        "Tire Condition for Right Front": "Good",
+                        "Tire Pressure for Left Rear": "32 psi",
+                        "Tire Condition for Left Rear": "Good",
+                        "Tire Pressure for Right Rear": "31 psi",
+                        "Tire Condition for Right Rear": "Ok",
+                        "Summary": "All tires are in good condition with adequate pressure. The right rear tire is slightly worn out but still serviceable."
+                    },
+                    "logo": "images/tyre_logo.png",
+                    "images": [
+                        {
+                            "imageName": "tireLeftFront.png",
+                            "imageDescription": "Image of Left Front Tire"
+                        },
+                        {
+                            "imageName": "tireRightFront.png",
+                            "imageDescription": "Image of Right Front Tire"
+                        },
+                        {
+                            "imageName": "tireLeftRear.png",
+                            "imageDescription": "Image of Left Rear Tire"
+                        },
+                        {
+                            "imageName": "tireRightRear.png",
+                            "imageDescription": "Image of Right Rear Tire"
+                        }
+                    ]
+                },
+                {
+                    "name": "Battery",
+                    "attributes": {
+                        "Battery Make": "XYZ 123",
+                        "Battery replacement date": "2022-10-20",
+                        "Battery Voltage": "13V",
+                        "Battery Water level": "Ok",
+                        "Condition of Battery": "N",
+                        "Any Leak/Rust in battery": "Y",
+                        "Summary": "The battery is functioning well with a voltage of 13V. However, there is some rust present and the water level is just okay."
+                    },
+                    "logo": "images/battery_logo.png",
+                    "images": [
+                        {
+                            "imageName": "batteryImage.png",
+                            "imageDescription": "Image of Battery"
+                        }
+                    ]
+                },
+                {
+                    "name": "Exterior",
+                    "attributes": {
+                        "Rust, Dent or Damage to Exterior": "Y",
+                        "Oil leak in Suspension": "Y",
+                        "Summary": "The exterior has some rust and dents. There is also an oil leak in the suspension which needs to be addressed."
+                    },
+                    "logo": "images/exterior_logo.png",
+                    "images": [
+                        {
+                            "imageName": "exteriorDamage.png",
+                            "imageDescription": "Image of Exterior Damage"
+                        },
+                        {
+                            "imageName": "suspensionLeak.png",
+                            "imageDescription": "Image of Suspension Leak"
+                        }
+                    ]
+                },
+                {
+                    "name": "Brakes",
+                    "attributes": {
+                        "Brake Fluid level": "Low",
+                        "Brake Condition for Front": "Ok",
+                        "Brake Condition for Rear": "Needs Replacement",
+                        "Emergency Brake": "Ok",
+                        "Brake Overall Summary": "The brake fluid level is low and the rear brakes need replacement. The front brakes and emergency brake are in okay condition but will require monitoring."
+                    },
+                    "logo": "images/brake_logo.png",
+                    "images": [
+                        {
+                            "imageName": "brakeFluidLevel.png",
+                            "imageDescription": "Image of Brake Fluid Level"
+                        },
+                        {
+                            "imageName": "brakeCondition.png",
+                            "imageDescription": "Image of Brake Condition"
+                        }
+                    ]
+                },
+                {
+                    "name": "Engine",
+                    "attributes": {
+                        "Rust, Dents or Damage in Engine": "Y",
+                        "Engine Oil Condition": "Bad",
+                        "Engine Oil Color": "Black",
+                        "Brake Fluid Condition": "Bad",
+                        "Brake Fluid Color": "Black",
+                        "Any oil leak in Engine": "Y",
+                        "Summary": "The engine has significant issues including rust and oil leaks. The engine oil and brake fluid are both in bad condition and need immediate attention."
+                    },
+                    "logo": "images/engine_logo.png",
+                    "images": [
+                        {
+                            "imageName": "engineDamage.png",
+                            "imageDescription": "Image of Engine Damage"
+                        },
+                        {
+                            "imageName": "oilLeak.png",
+                            "imageDescription": "Image of Oil Leak"
+                        },
+                        {
+                            "imageName": "engineImage.png",
+                            "imageDescription": "Image of Engine"
+                        }
+                    ]
+                },
+                {
+                    "name": "Voice of Customer",
+                    "attributes": {
+                        "Any feedback from Customer": "The customer mentioned that the car has been experiencing performance issues and requested an urgent check on the engine and brakes.",
+                        "Images related to the issues discussed": []
+                    },
+                    "logo": "images/customer_logo.png",
+                    "images": [
+                        {
+                            "imageName": "customerFeedbackImage1.png",
+                            "imageDescription": "Image related to Customer Feedback"
+                        },
+                        {
+                            "imageName": "customerFeedbackImage2.png",
+                            "imageDescription": "Another image related to Customer Feedback"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

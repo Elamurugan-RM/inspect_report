@@ -1,0 +1,162 @@
+{
+    "components": [
+        {
+            "name": "Header",
+            "attributes": {
+                "Truck_Serial_Number": "",
+                "Truck_Model": "",
+                "Inspection_ID": "",
+                "Inspector_Name": "",
+                "Inspector_ID": "",
+                "Date_time": "",
+                "Location": "",
+                "Geo_coor": "",
+                "Service_hour": "",
+                "Inspector_sign": "",
+                "Customer_name": "",
+                "Customer_ID": ""
+            }
+        },
+        {
+            "name": "Tires",
+            "attributes": {
+                "Tire Pressure for Left Front": "90",
+                "Tire Pressure for Right Front": "Value",
+                "Tire Condition for Left Front": "Good/Ok/Needs Replacement",
+                "Tire Condition for Right Front": "Good/Ok/Needs Replacement",
+                "Tire Pressure for Left Rear": "Value",
+                "Tire Condition for Left Rear": "Good/Ok/Needs Replacement",
+                "Tire Pressure for Right Rear": "Value",
+                "Tire Condition for Right Rear": "Good/Ok/Needs Replacement",
+                "Overall Tire Summary": "Summary text (<1000 characters>)"
+            },
+            "logo": "images/tire_logo.png",
+            "images": [
+                {
+                    "imageName": "tireLeftFront.png",
+                    "imageDescription": "Image of Left Front Tire"
+                },
+                {
+                    "imageName": "tireRightFront.png",
+                    "imageDescription": "Image of Right Front Tire"
+                },
+                {
+                    "imageName": "tireLeftRear.png",
+                    "imageDescription": "Image of Left Rear Tire"
+                },
+                {
+                    "imageName": "tireRightRear.png",
+                    "imageDescription": "Image of Right Rear Tire"
+                },
+                {
+                    "imageName": "newTireImage.png",
+                    "imageDescription": "Image of a new tire"
+                }
+            ]
+        },
+        {
+            "name": "Battery",
+            "attributes": {
+                "Battery Make": "Example CAT ABC, XYZ etc",
+                "Battery replacement date": "Date",
+                "Battery Voltage": "12V/13V",
+                "Battery Water level": "Good/Ok/Low",
+                "Condition of Battery": "Any damage (Y/N)",
+                "Any Leak or Rust in battery": "Y/N",
+                "Battery overall Summary": "Summary text (<1000 characters>)"
+            },
+            "logo": "battery_logo.png",
+            "images": [
+                {
+                    "imageName": "batteryImage.png",
+                    "imageDescription": "Image of Battery"
+                }
+            ]
+        },
+        {
+            "name": "Exterior",
+            "attributes": {
+                "Rust Dent or Damage to Exterior": "Y/N",
+                "Oil leak in Suspension": "Y/N",
+                "Overall Summary": "1000 Character Notes"
+            },
+            "logo": "exterior_logo.png",
+            "images": [
+                {
+                    "imageName": "exteriorDamage.png",
+                    "imageDescription": "Image of Exterior Damage"
+                },
+                {
+                    "imageName": "suspensionLeak.png",
+                    "imageDescription": "Image of Suspension Leak"
+                }
+            ]
+        },
+        {
+            "name": "Brakes",
+            "attributes": {
+                "Brake Fluid level": "Good/Ok/Low",
+                "Brake Condition for Front": "Good/Ok/Needs Replacement",
+                "Brake Condition for Rear": "Good/Ok/Needs Replacement",
+                "Emergency Brake": "Good/Ok/Low",
+                "Brake Overall Summary": "Summary text (<1000 characters>)"
+            },
+            "logo": "brake_logo.png",
+            "images": [
+                {
+                    "imageName": "brakeFluidLevel.png",
+                    "imageDescription": "Image of Brake Fluid Level"
+                },
+                {
+                    "imageName": "brakeCondition.png",
+                    "imageDescription": "Image of Brake Condition"
+                }
+            ]
+        },
+        {
+            "name": "Engine",
+            "attributes": {
+                "Rust, Dents or Damage in Engine": "Y/N",
+                "Engine Oil Condition": "Good/Bad",
+                "Engine Oil Color": "Clean/Brown/Black etc",
+                "Brake Fluid Condition": "Good/Bad",
+                "Brake Fluid Color": "Clean/Brown/Black etc",
+                "Any oil leak in Engine": "Y/N",
+                "Overall Summary": "Summary text (<1000 characters>)"
+            },
+            "logo": "engine_logo.png",
+            "images": [
+                {
+                    "imageName": "engineDamage.png",
+                    "imageDescription": "Image of Engine Damage"
+                },
+                {
+                    "imageName": "oilLeak.png",
+                    "imageDescription": "Image of Oil Leak"
+                },
+                {
+                    "imageName": "engineImage.png",
+                    "imageDescription": "Image of Engine"
+                }
+            ]
+        },
+        {
+            "name": "Voice of Customer",
+            "attributes": {
+                "Any feedback from Customer": "Customer Feedback",
+                "Images related to the issues discussed": []
+            },
+            "logo": "customer_logo.png",
+            "images": [
+                {
+                    "imageName": "customerFeedbackImage1.png",
+                    "imageDescription": "Image related to Customer Feedback"
+                },
+                {
+                    "imageName": "customerFeedbackImage2.png",
+                    "imageDescription": "Another image related to Customer Feedback"
+                }
+            ]
+        }
+    ]
+}
